@@ -1,0 +1,67 @@
+/* Loginpage.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .formContainer {
+    margin-top: 20px;
+  }
+  
+  .inputContainer {
+    margin-bottom: 10px;
+  }
+  
+  .inputBox {
+    width: calc(100% - 24px); /* Adjust the padding */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    color: #333;
+    background-color: #f2f2f2;
+  }
+  
+
+.inputBox {
+  width: calc(100% - 24px); /* Adjust the padding */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+.inputBox[type="password"] {
+  width: calc(100% - 24px); /* Adjust the padding */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+  
+  .inputButton:hover {
+    background-color: #0056b3;
+  }

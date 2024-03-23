@@ -1,0 +1,61 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #ffcc00;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input[type="tel"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #800080; 
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #6a006a; 
+}
+h3{
+    color:#ffcc00
+}
+.submitbutton{
+    display: block;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,89 @@
+/* Body.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('placeholder.png'); /* Replace 'placeholder.png' with the correct image path */
+    background-size: cover;
+    background-position: center;
+    opacity: 1; /* Adjust opacity if needed */
+}
+
+.body {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+    color: #ffffff; /* Change text color to white */
+}
+
+.left p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Adjust button width as needed */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+  /* Body.css */
+  
+  .steps-container {
+    background-color: #ffffff; /* Set background color */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    padding: 20px; /* Add padding for spacing inside the card */
+    justify-content: space-around;
+    
+  }
+  
+  /* The last card should not have a right margin */
+  .step:last-child {
+    margin-right: 0;
+  }
+  
+  
+  
+  .steps-container h2 {
+    color: #333333; /* Set color for heading */
+    margin-bottom: 20px; /* Add spacing below the heading */
+  }
+  
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Use grid layout for steps */
+    grid-gap: 20px; /* Add gap between steps */
+  }
+  
+  .step {
+    background-color: #f9f9f9; /* Set background color for each step */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    padding: 15px; /* Add padding for spacing inside each step */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .step h3 {
+    color: #333333; /* Set color for step title */
+  }
+  
+  .step p {
+    color: #666666; /* Set color for step description */
+  }
